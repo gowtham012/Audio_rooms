@@ -1,0 +1,122 @@
+
+.AudioRoom {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: Gilroy-Bold, serif !important;
+}
+
+.Header {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 76px;
+  text-align: center;
+  background-color: #3A44A1;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.Header p {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+}
+
+hr {
+  border-top: 1px solid #F5F5F5;
+  margin: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.audio-room-content {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: calc(75vh - 76px);
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+}
+
+.audio-room-name-div {
+  height: 48px;
+  background-color: white;
+  border: 2px solid #3A44A1;
+  color: #3A44A1;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.audio-room-members-div-wrap {
+  flex-grow: 1;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #F5F5F5;
+}
+
+.audio-room-members-div-wrap p {
+  color: #3A44A1 !important;
+}
+
+.audio-room-members-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.audio-room-members-div-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  margin-right: 16px;
+}
+
+.audio-room-members-div-item * {
+  align-self: center;
+  margin: 4px;
+}
+
+.audio-room-members-div-item p {
+  color: #11141c !important;
+  opacity: 0.8;
+}
+
+.audio-room-controls-div {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid #F5F5F5;
+}
+
+.leave-room-btn {
+  background-color: white !important;
+  color: red !important;
+}
+
+.mic-btn-muted {
+  background-color: white !important;
+}
+
+.audio-muted-icon {
+  color: red !important;
+}
+
+.audio-unmuted-icon {
+  color: #3A44A1 !important;
+}
+
