@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: "jdbc:postgresql://ep-wandering-star-085518.us-east-2.aws.neon.tech/audio-rooms"
+    username: server
+    password: ENC(461eoaiaRs69cC75+WmU6Z+QhjhnJpAf)
+
+  server:
+    port: 80
